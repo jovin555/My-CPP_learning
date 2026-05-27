@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+*.env
+.env.*
+
+# Zephyr build output
+build/
+.west/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Intermediate HTML (PDF is kept)
+Docs/plan.html
+
+# OS
+.DS_Store
+Thumbs.db
